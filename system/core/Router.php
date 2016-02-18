@@ -393,7 +393,8 @@ class CI_Router {
 			}
 
 			// Convert wildcards to RegEx
-			$key = str_replace(array(':any', ':num'), array('[^/]+', '[0-9]+'), $key);
+			foreach($this->config->item('url_wild_cards') as $key_=>$value)
+				$key = str_replace(':'.$key_, $value, $key);
 
 			// Does the RegEx match?
 			if (preg_match('#^'.$key.'$#', $uri, $matches))
