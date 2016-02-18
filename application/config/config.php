@@ -515,3 +515,20 @@ $config['rewrite_short_tags'] = FALSE;
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';
+
+/*
+|--------------------------------------------------------------------------
+| Create New Wild Cards to Routing
+|--------------------------------------------------------------------------
+|
+| You can create your own wild cards to have more control 
+| about the redirectings on the config/routes.php file.
+| 
+| An example of use of the url_wild_cards could be:
+|    $config['url_wild_cards'] = array('mac','[0-9A-Za-z]{2}-[0-9A-Za-z]{2}-[0-9A-Za-z]{2}-[0-9A-Za-z]{2}-[0-9A-Za-z]{2}-[0-9A-Za-z]{2}');
+| And on the config/routes.php, you could use:
+|    $route['admin/(:mac)'] = "admin/dashboard/testmac/$1";
+|    $route['admin/(:any)'] = "admin/dashboard/$1";
+|
+*/
+$config['url_wild_cards'] = array();
