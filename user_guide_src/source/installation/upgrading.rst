@@ -8,7 +8,15 @@ upgrading from.
 .. toctree::
 	:titlesonly:
 
-	Upgrading from 3.0.x to 3.1.x <upgrade_310>
+	Upgrading from 3.1.3+ to 3.2.x <upgrade_320>
+	Upgrading from 3.1.5 to 3.1.6 <upgrade_316>
+	Upgrading from 3.1.4 to 3.1.5 <upgrade_315>
+	Upgrading from 3.1.3 to 3.1.4 <upgrade_314>
+	Upgrading from 3.1.2 to 3.1.3 <upgrade_313>
+	Upgrading from 3.1.1 to 3.1.2 <upgrade_312>
+	Upgrading from 3.1.0 to 3.1.1 <upgrade_311>
+	Upgrading from 3.0.6 to 3.1.0 <upgrade_310>
+	Upgrading from 3.0.5 to 3.0.6 <upgrade_306>
 	Upgrading from 3.0.4 to 3.0.5 <upgrade_305>
 	Upgrading from 3.0.3 to 3.0.4 <upgrade_304>
 	Upgrading from 3.0.2 to 3.0.3 <upgrade_303>
